@@ -103,6 +103,7 @@ Feature importance analysis to identify which features contribute the most to de
 
 
 ----------------------------Visualization Approach----------------------------
+
 Here are the primary ways we plan to visualize the data:
 1. Time-Based Visualizations
    1. Ridership trends over time (pre-pandemic vs. post-pandemic).
@@ -126,6 +127,7 @@ Here are the primary ways we plan to visualize the data:
 
 
 ----------------------------Model Testing & Validation----------------------------
+
 We will test our predictive models and clustering algorithms to assess model accuracy and robustness.
 1. Testing Steps:
    1. Split the data into training and test sets (e.g., 80/20 or 70/30) to avoid overfitting.

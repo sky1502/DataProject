@@ -78,7 +78,7 @@ Feature importance analysis to identify which features contribute the most to de
 
 
 
-----------------------------Visualization Approach----------------------------
+# Visualization Approach
 
 Here are the primary ways we plan to visualize the data:
 1. Time-Based Visualizations
@@ -102,7 +102,7 @@ Here are the primary ways we plan to visualize the data:
 
 
 
-----------------------------Model Testing & Validation----------------------------
+# Model Testing & Validation
 
 We will test our predictive models and clustering algorithms to assess model accuracy and robustness.
 1. Testing Steps:

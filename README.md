@@ -105,22 +105,22 @@ Feature importance analysis to identify which features contribute the most to de
 ----------------------------Visualization Approach----------------------------
 Here are the primary ways we plan to visualize the data:
 1. Time-Based Visualizations
-->-> Ridership trends over time (pre-pandemic vs. post-pandemic).
-->-> Monthly/seasonal changes in bus delays and ridership.
-->-> Route delay patterns by time of day, like rush hour and off-peak.
-->-> Bus frequency analysis for peak times and off-peak periods.
+   1. Ridership trends over time (pre-pandemic vs. post-pandemic).
+   2. Monthly/seasonal changes in bus delays and ridership.
+   3. Route delay patterns by time of day, like rush hour and off-peak.
+   4. Bus frequency analysis for peak times and off-peak periods.
    
-2. Geographic/Spatial Visualizations
+3. Geographic/Spatial Visualizations
 ->-> Visualize service reliability (e.g., delays, wait times) by neighborhood or bus route.
 ->-> Visualize clusters of routes with similar service issues (maybe using K-Means clustering).
 ->-> Bus stop density, etc.
 ->-> Ridership per route: Compare ridership levels across routes.
    
-3. Model Visualizations
+4. Model Visualizations
 ->-> Visualize which factors (weather, traffic, neighborhood demographics) contribute most to delay prediction using Random Forest or XGBoost models.
 ->-> Use scatter plots or radar charts to visualize clusters of routes based on performance characteristics (delays, ridership).
    
-4. Dashboard/Interactive Visualizations
+5. Dashboard/Interactive Visualizations
 ->-> Display key insights like delays, ridership, and disparities across different routes and neighborhoods using Power BI.
 
 

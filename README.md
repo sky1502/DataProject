@@ -1,62 +1,38 @@
-# DataProject
-Project for CS506
 
-
----------------------Project Description---------------------
+# Project Description
 
 Public transportation in Boston dates back nearly 400 years, with the first ferry services in the 1600s. Today, MBTA serves over 1 million people daily in the Massachusetts Bay area and contributes approximately $11.5 billion per year to the local economy. Public transit plays a crucial role in economic mobility, environmental sustainability, and equitable access to opportunities, which is why it is important to analyze it’s usage and performance.
-Project Objectives and Goals
-Analyze Bus Ridership Trends
-Examine how MBTA bus ridership has changed over time, particularly pre-pandemic vs. post-pandemic.
-Identify which routes have gained or lost riders over the years.
-Assess Bus Service Performance
-Measure end-to-end travel times for each bus route.
-Analyze average wait times and delays (on-time vs. delayed arrivals).
-Identify which routes experience the most frequent and severe delays.
-Identify Service Disparities & Equity Gaps
-Determine whether certain bus routes have consistently worse service than others.
-Assess whether low-income, minority, or underserved communities are disproportionately affected by poor bus service.
-Compare Historical Data & Trends
-Compare 2015-2017 MBTA data with recent 2023-2024 data to track long-term trends.
-Understand whether transit equity has improved, worsened, or remained stagnant.
-Develop Data-Driven Recommendations
-Identify key problem areas in Boston’s bus network.
-Provide visualizations and statistical insights to inform policy decisions.
-Suggest potential improvements to enhance bus reliability and equity.
 
+# Project Objectives and Goals
+1. Analyze Bus Ridership Trends
+    1. Examine how MBTA bus ridership has changed over time, particularly pre-pandemic vs. post-pandemic.
+    2. Identify which routes have gained or lost riders over the years.
+2. Assess Bus Service Performance
+    1. Measure end-to-end travel times for each bus route.
+    2. Analyze average wait times and delays (on-time vs. delayed arrivals).
+    3. Identify which routes experience the most frequent and severe delays.
+3. Identify Service Disparities & Equity Gaps
+    1. Determine whether certain bus routes have consistently worse service than others.
+    2. Assess whether low-income, minority, or underserved communities are disproportionately affected by poor bus service.
+4. Compare Historical Data & Trends
+    1. Compare 2015-2017 MBTA data with recent 2023-2024 data to track long-term trends.
+    2. Understand whether transit equity has improved, worsened, or remained stagnant.
+5. Develop Data-Driven Recommendations
+    1. Identify key problem areas in Boston’s bus network.
+    2. Provide visualizations and statistical insights to inform policy decisions.
+    3. Suggest potential improvements to enhance bus reliability and equity.
 
-
-
-
-
-
-
-
-
-
-
-Data Collection Plan
+# Data Collection Plan
 We plan to get the data from the following sources for different requirements:
-1. MBTA Bus Performance Data
-For arrival & departure times, frequency of service, historical delay patterns 
-
-MBTA Open Data Portal (MBTA Performance Data)
-Archived MBTA reliability data (2018-2024)
-2. Ridership Data
-For daily & seasonal ridership per route, changes in bus usage (2015-2024), impact of COVID-19 on ridership, people’s income levels, race, ethnicity, use of different transports by the public, correlation between bus service quality and areas 
-MBTA 2023 System-Wide Passenger Survey
-MBTA Ridership Reports (MBTA Ridership Data)
-Historical ridership data (2015-2024)
-2020 U.S. Census (Boston Census Data)
-4. Geographic & Infrastructure Data
-For bus stop coordinates & accessibility data, street-level infrastructure (bus lanes, stops, congestion zones)
-MBTA GIS Data (ArcGIS) (MBTA GIS Data)
-
-
-
-
-
-
+1. **MBTA Bus Performance Data:** For arrival & departure times, frequency of service, historical delay patterns 
+    1. MBTA Open Data Portal:  [MBTA Performance Data](https://mbta-massdot.opendata.arcgis.com/)
+    2. Archived MBTA reliability data: [2018-2024](https://mbta-massdot.opendata.arcgis.com/search?q=reliability)
+2. **Ridership Data:** For daily & seasonal ridership per route, changes in bus usage (2015-2024), impact of COVID-19 on ridership, people’s income levels, race, ethnicity, use of different transports by the public, correlation between bus service quality and areas 
+    1. [MBTA 2023 System-Wide Passenger Survey](https://mbta-massdot.opendata.arcgis.com/datasets/faaf1295847e4673a03b40cef2c53df1_0/explore)
+    2. MBTA Ridership Reports: [MBTA Ridership Data](https://mbta-massdot.opendata.arcgis.com/datasets/eec03d901d2e470ebd5758c60d793e8e_0/explore)
+    3. 2020 U.S. Census: [Boston Census Data](https://data.boston.gov/dataset/2020-census-for-boston)
+3. **Geographic & Infrastructure Data**: For bus stop coordinates & accessibility data, street-level infrastructure (bus lanes, stops, congestion zones)
+    1. MBTA GIS Data (ArcGIS): [MBTA GIS Data](https://mbta-massdot.opendata.arcgis.com/)
 
 
 

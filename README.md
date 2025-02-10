@@ -50,28 +50,37 @@ We plan to get the data from the following sources for different requirements:
 
 
 
-Modeling Approach
+----------------------Modeling Approach----------------------
+
 We will use descriptive analytics, supervised learning, and unsupervised learning methods to analyze MBTA bus performance and equity.
+
 1. Data Preprocessing & Feature Engineering
-Clean data: Handle missing values, remove duplicates, and normalize features.
-Feature engineering examples include:
-Rush hour vs. off-peak, seasonal trends.
-Bus frequency, historical delay rates.
-Income, race, transit dependency.
-Stop density, proximity to transit hub.
+Clean data
+
+    1. Handle missing values, remove duplicates, and normalize features.
+    2. Feature engineering examples include:
+        1. Rush hour vs. off-peak, seasonal trends.
+        2. Bus frequency, historical delay rates.
+        3. Income, race, transit dependency.
+        4. Stop density, proximity to transit hub.
 2. Exploratory Data Analysis (EDA)
-Summary of ridership, delays, and disparities.
-Use ArcGIS/Power BI to visualize service performance by region.
-Identify long-term trends in ridership and delays.
+
+    1. Summary of ridership, delays, and disparities.
+    2. Use ArcGIS/Power BI to visualize service performance by region.
+    3. Identify long-term trends in ridership and delays.
+
 3. Clustering (Unsupervised Learning) for Route Classification
-Identify patterns in bus performance and classify routes based on service quality.
-K-Means or DBSCAN: Cluster routes based on delay frequency, average wait times, and reliability.
-Hierarchical Clustering: Group neighborhoods by ridership trends and demographic impact.
+
+    1. Identify patterns in bus performance and classify routes based on service quality.
+    2. K-Means or DBSCAN: Cluster routes based on delay frequency, average wait times, and reliability.
+    3. Hierarchical Clustering: Group neighborhoods by ridership trends and demographic impact.
+
 4. Supervised Learning
-Forecast delays and identify key factors contributing to unreliable service.
-Regression models to predict delay times.
-Classification models to categorize routes as "high delay risk" vs. "low delay risk."
-Feature importance analysis to identify which features contribute the most to delays (traffic, weather, demographics).
+
+    1. Forecast delays and identify key factors contributing to unreliable service.
+    2. Regression models to predict delay times.
+    3. Classification models to categorize routes as "high delay risk" vs. "low delay risk."
+    4. Feature importance analysis to identify which features contribute the most to delays (traffic, weather, demographics).
 
 
 

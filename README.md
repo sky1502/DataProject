@@ -35,22 +35,7 @@ We plan to get the data from the following sources for different requirements:
     1. MBTA GIS Data (ArcGIS): [MBTA GIS Data](https://mbta-massdot.opendata.arcgis.com/)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-----------------------Modeling Approach----------------------
+# Modeling Approach
 
 We will use descriptive analytics, supervised learning, and unsupervised learning methods to analyze MBTA bus performance and equity.
 
@@ -81,11 +66,6 @@ Clean data
     2. Regression models to predict delay times.
     3. Classification models to categorize routes as "high delay risk" vs. "low delay risk."
     4. Feature importance analysis to identify which features contribute the most to delays (traffic, weather, demographics).
-
-
-
-
-
 
 # Visualization Approach
 

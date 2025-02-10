@@ -102,35 +102,36 @@ Feature importance analysis to identify which features contribute the most to de
 
 
 
-Visualization Approach
+----------------------------Visualization Approach----------------------------
 Here are the primary ways we plan to visualize the data:
 1. Time-Based Visualizations
-Ridership trends over time (pre-pandemic vs. post-pandemic).
-Monthly/seasonal changes in bus delays and ridership.
-Route delay patterns by time of day, like rush hour and off-peak.
-Bus frequency analysis for peak times and off-peak periods.
+->-> Ridership trends over time (pre-pandemic vs. post-pandemic).
+->-> Monthly/seasonal changes in bus delays and ridership.
+->-> Route delay patterns by time of day, like rush hour and off-peak.
+->-> Bus frequency analysis for peak times and off-peak periods.
+   
 2. Geographic/Spatial Visualizations
-Visualize service reliability (e.g., delays, wait times) by neighborhood or bus route.
-Visualize clusters of routes with similar service issues (maybe using K-Means clustering).
-Bus stop density, etc.
-Ridership per route: Compare ridership levels across routes.
-3. Predictive Model & Clustering Visualizations
-Visualize which factors (weather, traffic, neighborhood demographics) contribute most to delay prediction using models like Random Forest or XGBoost.
-Use scatter plots or radar charts to visualize clusters of routes based on performance characteristics (delays, ridership).
+->-> Visualize service reliability (e.g., delays, wait times) by neighborhood or bus route.
+->-> Visualize clusters of routes with similar service issues (maybe using K-Means clustering).
+->-> Bus stop density, etc.
+->-> Ridership per route: Compare ridership levels across routes.
+   
+3. Model Visualizations
+->-> Visualize which factors (weather, traffic, neighborhood demographics) contribute most to delay prediction using Random Forest or XGBoost models.
+->-> Use scatter plots or radar charts to visualize clusters of routes based on performance characteristics (delays, ridership).
+   
 4. Dashboard/Interactive Visualizations
-Display key insights like delays, ridership, and disparities across different routes and neighborhoods using Power BI.
+->-> Display key insights like delays, ridership, and disparities across different routes and neighborhoods using Power BI.
 
 
 
+----------------------------Model Testing & Validation----------------------------
+We will test our predictive models and clustering algorithms to assess model accuracy and robustness.
+1. Testing Steps:
+->-> Split the data into training and test sets (e.g., 80/20 or 70/30) to avoid overfitting.
+->-> Use K-fold cross-validation to ensure the model generalizes well across different subsets of the data.
 
-
-Model Testing & Validation
-To assess model accuracy and robustness, we will test our predictive models (for delay prediction) and clustering algorithms (for service quality).
-Testing Steps:
-Train-Test Split:
-Split the data into training and test sets (e.g., 80/20 or 70/30) to avoid overfitting.
-Cross-validation: Use K-fold cross-validation to ensure the model generalizes well across different subsets of the data.
-Performance Metrics Evaluation:
-For Regression Models (e.g., Random Forest, XGBoost): Test performance using RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and R².
-For Classification Models (e.g., Logistic Regression, Decision Trees): Use accuracy, precision, recall, and F1-score.
-For Clustering: Evaluate using the Silhouette Score and Davies-Bouldin Index to ensure appropriate clustering of routes.
+2. Performance Metrics Evaluation:
+->-> For Regression Models (e.g., Random Forest, XGBoost): Test performance using RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and R².
+->-> For Classification Models (e.g., Logistic Regression, Decision Trees): Use accuracy, precision, recall, and F1-score.
+->-> For Clustering: Evaluate using the Silhouette Score and Davies-Bouldin Index to ensure appropriate clustering of routes.

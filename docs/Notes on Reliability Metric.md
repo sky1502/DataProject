@@ -20,3 +20,10 @@ The final percentage has two components
 **Note that the MBTA reliability metric dataset still publishes OTP.**
 
 
+## Excess Trip Time (ETT)
+To quote the [Service policy](https://cdn.mbta.com/sites/default/files/2025-2-7-service-delivery-policy-fall-2024-final.pdf) page 19:
+``` 
+Percent of passenger trips where trip time is within 5 minutes of benchmark trip time, calculated
+as the actual trip time minus benchmark trip time, summed for all passengers.
+```
+Now this metric is currently planned to use only for Commuter Rail. But we can calculate this for buses as well using the datasets in [this](https://mbta-massdot.opendata.arcgis.com/search?q=arrival%20departure%20times) portal search.

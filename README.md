@@ -122,7 +122,9 @@ Data Preprocessing:
          1. Pre - Covid Aug'18 - Dec'19.
          2. Covid: Jan'20 - Dec'22.
          3. Post - Covid Jan'23 - Dec'24.
-4. Add any columns you guys added in the datasets as feature engineering.
+4. We created the following features:
+     1. From the MBTA Ridership data, we added a feature to categorize whether the data point is 'before pademic' or 'after pandemic'. Also added a feature to measure the average ridership every 6 months instead of monthly, to be able to visualize it better.
+    
 
 
 Exploratory Data Analysis:

@@ -102,3 +102,21 @@ We will test our predictive models and clustering algorithms to assess model acc
    1. For Regression Models (e.g., Random Forest, XGBoost): Test performance using RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and R².
    2. For Classification Models (e.g., Logistic Regression, Decision Trees): Use accuracy, precision, recall, and F1-score.
    3. For Clustering: Evaluate using the Silhouette Score and Davies-Bouldin Index to ensure appropriate clustering of routes.
+
+
+  
+# Methodology
+
+1. We downloaded the data from MBTA’s open source datasets available online.
+2. We tried to identify each dataset's missing and null values. We found the data to be complete. 
+     1. We found data that was temporally missing, like in the Bus Arrival and Departure Times Datasets; some dates are absent for the arrival and departure data. 
+3. We combined the CSV files in the most relevant way possible. For example, we combined the Bus Arrival and Departure Times Data; we did the following:
+     1. Made the columns in all the CSV files consistent. For example, we found that the 'direction' column was named differently in many CSV files.
+     2. The 'earliness' column was removed because it was present in only 3 or 4 CSV files for the years 2018 and 2019 out of 46 total CSV files. 
+     3. Combined the CSV files for each month into 1 CSV file for the whole year.
+     4. Took the yearwise CSV files and combined them into three categories for processing them accordingly:
+           a. Pre-Covid 2018-2019.
+           b. Covid: 2020-2022.
+           c. Post-Covid 2023-2024.
+4. <Add any columns you guys added in the datasets as feature engineering.>
+

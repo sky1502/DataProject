@@ -107,6 +107,8 @@ We will test our predictive models and clustering algorithms to assess model acc
   
 # Methodology
 
+Data Preprocessing:
+
 1. We downloaded the data from MBTA’s open source datasets available online.
 2. We tried to identify each dataset's missing and null values. We found the data to be complete. 
      1. We found data that was temporally missing, like in the Bus Arrival and Departure Times Datasets; some dates are absent for the arrival and departure data. 

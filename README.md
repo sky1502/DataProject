@@ -117,12 +117,9 @@ Data Preprocessing:
      2. The 'earliness' column was removed because it was present in only 3 or 4 CSV files for the years 2018 and 2019 out of 46 total CSV files. 
      3. Combined the CSV files for each month into 1 CSV file for the whole year.
      4. Took the yearwise CSV files and combined them into three categories for processing them accordingly:
-
-        a. Pre - Covid Aug'18 - Dec'19.
-
-        b. Covid: Jan'20 - Dec'22.
-
-        c. Post - Covid Jan'23 - Dec'24.
+         1. Pre - Covid Aug'18 - Dec'19.
+         2. Covid: Jan'20 - Dec'22.
+         3. Post - Covid Jan'23 - Dec'24.
 4. Add any columns you guys added in the datasets as feature engineering.
 
 

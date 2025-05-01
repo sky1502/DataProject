@@ -1,3 +1,5 @@
+# Video Link: [Link](https://youtu.be/Td8LB_Ot2tg)
+
 
 # Project Description
 
@@ -102,3 +104,60 @@ We will test our predictive models and clustering algorithms to assess model acc
    1. For Regression Models (e.g., Random Forest, XGBoost): Test performance using RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and R².
    2. For Classification Models (e.g., Logistic Regression, Decision Trees): Use accuracy, precision, recall, and F1-score.
    3. For Clustering: Evaluate using the Silhouette Score and Davies-Bouldin Index to ensure appropriate clustering of routes.
+
+
+  
+# Methodology
+
+Data Preprocessing:
+
+1. We downloaded the data from MBTA’s open source datasets available online.
+2. We tried to identify each dataset's missing and null values. We found the data to be complete. 
+     1. We found data that was temporally missing, like in the Bus Arrival and Departure Times Datasets; some dates are absent for the arrival and departure data. 
+3. We combined the CSV files in the most relevant way possible. For example, we combined the Bus Arrival and Departure Times Data; we did the following:
+     1. Made the columns in all the CSV files consistent. For example, we found that the 'direction' column was named differently in many CSV files.
+     2. The 'earliness' column was removed because it was present in only 3 or 4 CSV files for the years 2018 and 2019 out of 46 total CSV files. 
+     3. Combined the CSV files for each month into 1 CSV file for the whole year.
+     4. Took the yearwise CSV files and combined them into three categories for processing them accordingly:
+         1. Pre - Covid Aug'18 - Dec'19.
+         2. Covid: Jan'20 - Dec'22.
+         3. Post - Covid Jan'23 - Dec'24.
+4. We created the following features:
+     1. From the MBTA Ridership data, we added a feature to categorize whether the data point is 'before pademic' or 'after pandemic'. Also added a feature to measure the average ridership every 6 months instead of monthly, to be able to visualize it better.
+    
+
+
+Exploratory Data Analysis:
+
+1.  Identify long-term trends in ridership and delays.
+    1. We created a feature - 'delay'- calculated as the difference between scheduled and actual bus timings. 
+    2. Then we grouped the data on ['service_date', 'route_id', 'stop_id'] and took the mean of the 'delay' column.
+    3. Then we grouped the data such that we had delays for each route for each month.
+    4. Then we took the important routes from the project description and plotted the avg delay times for those routes.
+    5. We created the plots for pre-covid, covid, and post-covid data separately.
+  
+# Observations So Far
+
+During the EDA, we made the following observations:
+1.  Identify long-term trends in ridership and delays.
+    1. Pre - Covid (Aug'18 - Dec'19):
+        1.  Delays were stable and moderate across most routes, generally ranging between 3–6 minutes.
+        2.  Route 45 was the most delayed, hovering consistently around 7–9 minutes — setting a trend that continued post-pandemic. Route 29 followed second.
+        3.  Routes 14 and 111 had the lowest delays, typically below 3 minutes, indicating strong schedule adherence.
+        4.  A minor spike occurred mid-2019 for several routes. Reasons yet to be known.
+        5.  Delay variability across routes was lower, suggesting a more uniform, well-controlled system.
+    2. Covid  (Jan'20 - Dec'22):
+        1. Delays dropped significantly in early 2020, especially during lockdown phases — likely due to reduced traffic and ridership.
+        2. Route 15 experienced a massive spike in mid-2021, peaking above 10 minutes — possibly due to staffing or service cuts.
+        3. Route 45 continued to show elevated delays, though slightly lower than pre-COVID at times.
+        4. Most routes had smoother, flatter trends in 2020, followed by a gradual rise through 2021–2022 as the city reopened.
+        5. System-wide delay spikes occurred in mid-2022, suggesting operational challenges during recovery (e.g., increased demand, limited resources).
+    3. Post - Covid (Jan'23 - Dec'24):
+        1. Delays increased overall, with higher averages than both pre-COVID and during COVID for many routes.
+        2. Route 45 remains the worst performer, consistently staying around or above 12 minutes, worsening post-pandemic.
+        3. Route 29 also emerged as a high-delay route, especially from mid-2023 onward.
+        4. Several routes began to diverge more in delay behavior, indicating growing inconsistency across the system.
+        5. Seasonal delay patterns reappeared, with delay peaks around summer and fall, hinting at traffic volume or scheduling pressure.
+
+     
+     

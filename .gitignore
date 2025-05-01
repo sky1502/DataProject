@@ -1,2 +1,5 @@
 .DS_Store
 
+# Ignoring big data files
+
+**/MBTA_Bus_Ridership_by_Time_Period_Route_Line_and_Stop_Fall.csv

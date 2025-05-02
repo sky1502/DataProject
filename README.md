@@ -583,9 +583,13 @@ Looking at the plots of relaibility metric, there is a clear trend in the inflic
 | Fare Equity Opportunity  | All routes (esp. low-income zones) |
 
 # Steps to Recreate
-## Makefile Steps
+## Env setup instructions
+1. Navigate to the start of this directory
+2. Run the following command: 
+`./env_setup.sh`
 
-
+## To test the code
+Open the `reliability_predictions.ipynb` and select the created environment `.venv`. Run all the cells and you should see a plotly output at the last cell.
 
 ## Visualisations
 All the visualisations are interactive and will be saved in [Plots](plots) folder.

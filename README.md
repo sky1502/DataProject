@@ -1,4 +1,5 @@
-# Video Link: [Link](https://youtu.be/Td8LB_Ot2tg)
+# Midterm Video Link: [Link](https://youtu.be/Td8LB_Ot2tg)
+# Final Video Link: [Link](https://youtu.be/DcKEU4_N1Uc)
 
 
 # Project Description

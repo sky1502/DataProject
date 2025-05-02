@@ -39,8 +39,8 @@ We got the data from the following sources for different requirements:
 # Data Modeling 
 
 Used supervised Learning to create the following Models:
-    1. Modelled Regression and Classification Models to predict OTP (On Time Performance).
-    2. Time-Series Forecasting to predict the ridership per season. 
+1. Modelled Regression and Classification Models to predict OTP (On Time Performance).
+2. Time-Series Forecasting to predict the ridership per season. 
 
 # Visualization Approach
 

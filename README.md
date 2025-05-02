@@ -202,7 +202,6 @@ Notes:
             | 44       | 5.336321 | 6.271245  | 6.421958  | 7.037239  | 6.266191  |
             | 45       | 9.254084 |11.558276  |10.421836  |11.811596  |10.761448  |
 
-
 3. For each day of the week, following avg. delays were observed over all routes combined:
    |     Weekday    | Pre-Pandemic  | Pandemic      | Post-pandemic |
    |----------------|---------------|---------------|---------------|

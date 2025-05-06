@@ -133,8 +133,8 @@ Notes:
 
 
 1. We calculated weekly average delays:
-   |     Route     | Duration          | Pre-Pandemic  | Pandemic      | Post-pandemic |
-   |---------------|-------------------|---------------|---------------|---------------|
+   |     Route     | Pre-Pandemic  | Pandemic      | Post-pandemic |
+   |---------------|---------------|---------------|---------------|
    | 111           | <3 | <2 | 2 - 5.5|
    | 14            | 3 - 5.5| 3.5 - 4.5| 3.5 - 6.5|
    | 15            | 2.5 - 4.5| 1.5 - 3.5| 3.5 - 4.5|
